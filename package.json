@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify functions:build",
+    "build": "netlify functions:build --src functions",
     "start": "node server-local.js"
   },
   "author": "",
