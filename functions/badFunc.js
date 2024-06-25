@@ -11,5 +11,3 @@ export async function handler(event, context) {
   
     return serverless(api)(event, context);
   }
-
-YOUR_BASE_DIRECTORY/netlify/functions/api.ts
